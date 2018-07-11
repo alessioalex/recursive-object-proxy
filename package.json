@@ -1,6 +1,6 @@
 {
   "name": "recursive-object-proxy",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "MIT License",
   "main": "index.js",
   "scripts": {},
