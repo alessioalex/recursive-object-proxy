@@ -100,6 +100,7 @@ function emulateArray(obj, update, dotPath) {
 
       if (Number(property) >= length) {
         length = Number(property) + 1;
+        update(computePath(path, 'length', '.'), length);
       }
 
       return true;

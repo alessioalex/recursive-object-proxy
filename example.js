@@ -35,6 +35,9 @@ logAndExec('obj.a[3].bb.c.push(2,3,4);');
 logAndExec('obj.a[3].bb.c.unshift(0,1,1);');
 logAndExec('obj.a[3].bb.c.pop();');
 
+logAndExec('obj.a[5] = 55;');
+logAndExec('obj.a[6] = 66;');
+
 /* OUTPUT:
 
 --------------------

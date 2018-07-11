@@ -18,7 +18,7 @@ const o = {
 };
 
 const obj = proxyObject(o, (path, val, isRemoved) => {
-  process.stdout.write('proxy notification: ');
+  console.log('proxy notification: ');
 
   if (isRemoved) {
     console.log(`removed ${path}`);
